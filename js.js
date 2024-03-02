@@ -45,7 +45,7 @@ function eventOnBoxes(event){
 // создание квадратов и события на них
 function drawBoxes(prevSize) {
 
-    // при помощи sqr00- проверяем было ли уже построено поле,
+    // при помощи sqr0-0 проверяем было ли уже построено поле,
     // если да, то очищаем все по старому значению SIZE 
     if(document.getElementById("sqr0-0")){
         removeBoxesAndEventsAndArrays(prevSize)
